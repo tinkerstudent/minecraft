@@ -1,0 +1,13 @@
+INDEX VERSION 1.127+/Users/rvergis/Documents/tinkeracademy/forge-1.8-11.14.3.1450-src/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+3375823561.index
+4090118382.index
+2283545641.index
+665635781.index
+3074261012.index
+3649325378.index
+1275970399.index
+3732673402.index
+3006789382.index
+4179940024.index
+156620383.index
+447872354.index
