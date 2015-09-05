@@ -94,6 +94,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_NMRED1ONEeWIQ8w8wTFO6g" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_NL7FwFONEeWIQ8w8wTFO6g"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_NMREEFONEeWIQ8w8wTFO6g" containerData="2500" selectedElement="_NMREEVONEeWIQ8w8wTFO6g">
                   <children xsi:type="basic:PartStack" xmi:id="_NMREEVONEeWIQ8w8wTFO6g" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_NMREElONEeWIQ8w8wTFO6g">
+                    <tags>noFocus</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_NMREElONEeWIQ8w8wTFO6g" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_NMP14FONEeWIQ8w8wTFO6g"/>
                   </children>
                   <children xsi:type="basic:PartStack" xmi:id="_NMREE1ONEeWIQ8w8wTFO6g" elementId="right" containerData="5000" selectedElement="_NMREFFONEeWIQ8w8wTFO6g">
@@ -251,7 +252,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_M1ydsFONEeWIQ8w8wTFO6g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_M1-D4FONEeWIQ8w8wTFO6g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_MbThJFONEeWIQ8w8wTFO6g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ijF3oFONEeWaS4YlcP5NLw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_MbThJFONEeWIQ8w8wTFO6g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_M1zEwFONEeWIQ8w8wTFO6g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -272,7 +273,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_M1zExFONEeWIQ8w8wTFO6g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_M1_5EFONEeWIQ8w8wTFO6g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_MbRE8lONEeWIQ8w8wTFO6g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ijJiAFONEeWaS4YlcP5NLw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_MbRE8lONEeWIQ8w8wTFO6g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_M1zr0FONEeWIQ8w8wTFO6g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -686,7 +687,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_McbihlONEeWIQ8w8wTFO6g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
     </bindings>
-    <bindings xmi:id="_Mc1LI1ONEeWIQ8w8wTFO6g" keySequence="COMMAND+CTRL+F" command="_Mc1LIVONEeWIQ8w8wTFO6g"/>
+    <bindings xmi:id="_iLlWkVONEeWaS4YlcP5NLw" keySequence="COMMAND+CTRL+F" command="_Mc1LIVONEeWIQ8w8wTFO6g"/>
   </bindingTables>
   <bindingTables xmi:id="_McDvFFONEeWIQ8w8wTFO6g" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_Mba141ONEeWIQ8w8wTFO6g">
     <bindings xmi:id="_McEWIFONEeWIQ8w8wTFO6g" keySequence="COMMAND+SHIFT+C" command="_MbLlZ1ONEeWIQ8w8wTFO6g"/>
@@ -846,7 +847,7 @@
     <bindings xmi:id="_McYfNFONEeWIQ8w8wTFO6g" keySequence="F1" command="_MbLlUVONEeWIQ8w8wTFO6g"/>
   </bindingTables>
   <bindingTables xmi:id="_Mc1yMlONEeWIQ8w8wTFO6g" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_MaclhlONEeWIQ8w8wTFO6g">
-    <bindings xmi:id="_Mc1yM1ONEeWIQ8w8wTFO6g" keySequence="M1+W" command="_Mc1yMFONEeWIQ8w8wTFO6g"/>
+    <bindings xmi:id="_iLl9oFONEeWaS4YlcP5NLw" keySequence="M1+W" command="_Mc1yMFONEeWIQ8w8wTFO6g"/>
   </bindingTables>
   <bindingTables xmi:id="_NL9iAFONEeWIQ8w8wTFO6g" bindingContext="_NL868FONEeWIQ8w8wTFO6g"/>
   <bindingTables xmi:id="_NL9iAlONEeWIQ8w8wTFO6g" bindingContext="_NL9iAVONEeWIQ8w8wTFO6g"/>
