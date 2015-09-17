@@ -4,6 +4,8 @@
 @rem
 @rem ##########################################################################
 
+echo Setting up minecraft forge on windows
+
 @rem check for existing JAVA_HOME
 if defined JAVA_HOME goto runSetup
 
@@ -26,12 +28,18 @@ goto fail
 :runSetup
 
 @rem setup gradlew
+
+echo Running gradlew setupDecompWorkspace
 gradlew setupDecompWorkspace
+
+echo Running gradlew eclipse
 gradlew eclipse
 
 goto mainEnd
 
 :fail
+echo Setup Failed
 exit /b 1
 
 :mainEnd
+echo Setup Successful
