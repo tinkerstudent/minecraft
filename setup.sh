@@ -2,6 +2,11 @@
 
 echo "Setting up minecraft forge on Mac"
 
+echo "Cleanup"
+rm -rf .settings/ .project .gradle/ .classpath eclipse
+cp -r eclipse.orig eclipse
+./gradlew cleanCache
+
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 echo "Running gradlew setupDecompWorkspace"

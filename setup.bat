@@ -6,6 +6,7 @@
 
 echo Setting up minecraft forge on windows
 
+
 @rem check for existing JAVA_HOME
 if defined JAVA_HOME goto runSetup
 
@@ -27,7 +28,18 @@ goto fail
 
 :runSetup
 
+@rem cleanup
+RMDIR .settings /s /q
+RMDIR .project /s /q
+RMDIR .gradle /s /q
+RMDIR .classpath /s /q
+RMDIR eclipse /s /q
+
+xcopy /E eclipse.orig eclipse
+
 @rem setup gradlew
+
+gradlew cleanCache
 
 echo Running gradlew setupDecompWorkspace
 gradlew setupDecompWorkspace
