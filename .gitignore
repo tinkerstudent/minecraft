@@ -17,3 +17,7 @@ bin/
 
 .project
 .classpath
+.gradle
+.settings
+.metadata
+src/
