@@ -20,3 +20,4 @@ bin/
 .gradle
 .settings
 .metadata
+gradle-app.setting
