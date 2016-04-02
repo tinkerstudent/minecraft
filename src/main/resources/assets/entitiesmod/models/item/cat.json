@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "rvergis_myitemsmod:item/purple_key"
+        "layer0": "entitiesmod:item/cat"
     },
     "display": {
         "thirdperson": {

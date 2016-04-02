@@ -24,7 +24,7 @@ public class SnitchItem extends Item {
 		}
 		Snitch snitch = new Snitch(worldIn);
 		BlockPos playerPos = playerIn.getPosition();
-		snitch.setPosition(playerPos.getX() + 0.5D, playerPos.getY(), playerPos.getZ() + 0.5D);
+		snitch.setPosition(playerPos.getX() + 0.5D, playerPos.getY() + 10.0D, playerPos.getZ() + 0.5D);
 		worldIn.spawnEntityInWorld(snitch);
 		return true;
     }

@@ -10,5 +10,7 @@ public class ClientProxy extends CommonProxy {
 	public void registerRendering() {
 		RenderManager renderManager = Minecraft.getMinecraft().getRenderManager();
 		RenderingRegistry.registerEntityRenderingHandler(Snitch.class, new SnitchRenderer(renderManager));
+		RenderingRegistry.registerEntityRenderingHandler(Cat.class, 
+				new CatRenderer(renderManager,new CatModel(),1.0f));
 	}
 }

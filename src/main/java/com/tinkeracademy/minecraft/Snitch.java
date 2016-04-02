@@ -23,6 +23,7 @@ public class Snitch extends EntityAmbientCreature {
 	public void onUpdate()
     {
         super.onUpdate();
+        this.setPosition(posX, posY + 0.1D, posZ);
 //        this.motionY = this.motionY *  0.6000000238418579D;
     }
 	

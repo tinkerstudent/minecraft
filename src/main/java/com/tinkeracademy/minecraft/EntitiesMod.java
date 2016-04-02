@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.relauncher.Side;
 
 @Mod(modid = EntitiesMod.MODID, version = EntitiesMod.VERSION)
 public class EntitiesMod {
@@ -18,15 +19,19 @@ public class EntitiesMod {
 	@SidedProxy(clientSide = "com.tinkeracademy.minecraft.ClientProxy", serverSide = "com.tinkeracademy.minecraft.CommonProxy")
 	public static CommonProxy proxy;
 	public static Item snitchItem;
+	public static Item catItem;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		snitchItem = new SnitchItem();
+		catItem = new CatItem();
 	}
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.registerRendering();
-		snitchItem = new SnitchItem();
 		EntityList.addMapping(Snitch.class, "Snitch", 102);
+		EntityList.addMapping(Cat.class, "Cat", 103);
+		((CatItem) catItem).init();
 	}
 }
